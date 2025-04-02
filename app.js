@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 viewStock(event.target.id, stocks);
             }
         });
-
       }
+      
     function populateForm(data) {
         const { user, id } = data;
 
